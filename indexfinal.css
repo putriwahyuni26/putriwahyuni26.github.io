@@ -1,38 +1,24 @@
-#navbar{
-    background-color: pink;
-}
-#tentangmerries{
-    border: 3px solid pink;
-    color: pink;
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    position: absolute;
-    top: 800px;
-    left: 400px;
-    width: 40%;
-    text-align: center;
-}
-.jumbotron{
+.jumbotron {
     background-image: url(http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/web-kao-com/merries/id/id/common/common_bg_mizutamausagi.png?fmt=png-alpha);
     background-size: contain;
     height: 750px;
     text-align: center;
     background-color: white;
 }
-.jumbotron .gambar{
+/* .jumbotron .gambar {
     position: absolute;
-      left: 350px;
-      top: 1330px;
+    left: 380px;
+    top: 1420px;
 }
-.jumbotron .gambar2{
+.jumbotron .gambar2 {
     position: absolute;
-    left: 600px;
+    left: 640px;
+    top: 1418px;
 }
 .jumbotron .putri2{
     position: absolute;
-    left: 600px;
-    top: 1410px;
+    left: 640px;
+    top: 1505px;
     font-size: 30px;
 }
 #klikdisiniuntukinfolebihlanjut{
@@ -42,25 +28,25 @@
     margin-left: 20px;
     margin-right: 20px;
     position: absolute;
-    top: 1450px;
-    left: 580px;
+    top: 1560px;
+    left: 620px;
     width: 20%;
     text-align: left;
 }
 .jumbotron .gambar3{
     position: absolute;
-    left: 350px;
-    top: 1680px;
+    left: 380px;
+    top: 1760px;
 }
 .jumbotron .gambar4{
     position: absolute;
-    left: 610px;
-    top: 1680px;
+    left: 640px;
+    top: 1750px;
 }
 .jumbotron .putri3{
     position: absolute;
-    left: 610px;
-    top: 1790px;
+    left: 638px;
+    top: 1860px;
     font-size: 30px;
 }
 #klik{
@@ -70,25 +56,25 @@
     margin-left: 20px;
     margin-right: 20px;
     position: absolute;
-    top: 1880px;
-    left: 590px;
+    top: 1950px;
+    left: 620px;
     width: 20%;
     text-align: left;
 }
 .jumbotron .gambar5{
     position: absolute;
-    left: 350px;
-    top: 2000px;
+    left: 390px;
+    top: 2050px;
 }
 .jumbotron .gambar6{
     position: absolute;
-    left: 610px;
-    top: 2000px;
+    left: 640px;
+    top: 2045px;
 }
 .jumbotron .putri4{
     position: absolute;
-    left: 610px;
-    top: 2100px;
+    left: 640px;
+    top: 2150px;
     font-size: 30px;
 }
 #kliksini{
@@ -98,13 +84,16 @@
     margin-left: 20px;
     margin-right: 20px;
     position: absolute;
-    top: 2200px;
-    left: 590px;
+    top: 2250px;
+    left: 620px;
     width: 20%;
     text-align: left;
 }
 .jumbotron .gambar7{
     position: absolute;
-    top: 2300px;
-    left: 400px;
+    top: 2350px;
+    left: 450px;
 }
+.row {
+    left: 100px;
+} */
