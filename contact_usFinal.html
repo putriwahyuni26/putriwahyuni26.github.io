@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+    </style>
+    <title>contact_usFinal.html</title>
+</head>
+<body>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info" id="saya">
+          <div class="container-fluid">
+              <img src="https://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/web-kao-com/merries/id/id/common/header_logo.png?fmt=png-alpha&wid=150" class="mx-auto" style="width:7%">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://putriwahyuni26.github.io/biodata.html">Biodata</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://putriwahyuni26.github.io/contact_usFinal.html">Contact_us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://putriwahyuni26.github.io/Halaman1.html">Rangkaian Produk Popok Bayi Merries</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://putriwahyuni26.github.io/Halaman2.html">Saran dari dokter kulit anak</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Panduan Popok</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tanya Jawab Seputar Popok Bayi Merries</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sample Gratis</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class=" jumbotron-fluid">
+        <img src="https://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/web-kao-com/merries/id/id/index/top_kv-l.png?fmt=png-alpha&wid=1980" class="img-fluid" style="position: relative;">
+      </div>
+      <div>
+    </div>
+    <div class="container">
+        <h1 class="text-center text-info">Contact_us</h1>
+    </div>
+    <br><br>
+    <form action="process.php">
+        <p><label>Nama:</label> <input type="text" name="nama" placeholder="Masukkan nama " required></p>
+        <p><label>Email:</label> <input type="email" name="email" placeholder="Masukkan email" required></p>
+        <p><label>Password:</label> <input type="password" name="password" placeholder="Masukkan password" required></p>
+        <p><label>Nomor Telefon:</label> <input type="text" name="nomor telefon" placeholder="Masukkan nomor telefon" required></p>
+        <p><label>Status:</label>
+            <input type="radio" name="status" value="menikah"><label>Menikah</label>
+            <input type="radio" name="status" value="belum menikah" checked><label>Belum Menikah</label>
+            <input type="radio" name="status" value="bercerai"><label>Bercerai</label>
+        </p>
+        <p><label>Tanggal Lahir:</label> <input type="date" name="tanggal lahir" required></p>
+        <p><label>Jenis Kelamin:</label>
+            <input type="radio" name="gender" value="laki-laki"><label>Laki-laki</label>
+            <input type="radio" name="gender" value="perempuan" checked><label>Perempuan</label>
+        </p>
+        <p><label name="hobi">Hobi:</label>
+            <input type="checkbox" value="belajar" checked><label>Belajar</label>
+            <input type="checkbox" value="olahraga" checked><label>Olahraga</label>
+            <input type="checkbox" value="makan" checked><label>Makan</label>
+            <input type="checkbox" value="mendengarkan musik" checked><label>Mendengarkan Musik</label>
+        </p>
+        <p><label>Agama:</label>
+            <select name="agama">
+                <option value="">Silahkan pilih agama</option>
+                <option value="Kristen Protestan"> kristen Protestan</option>
+                <option value="Islam">Islam</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghucu">Konghucu</option>
+                <option value="Katolik">Katolik</option>
+            </select>
+        </p>
+        <p><label>Alamat:</label> <textarea rows="5" cols="30"></textarea></p>
+    </form>
+    <div class="container">
+        <button type="button" class="btn btn-outline-info btn-block">Simpan</button>
+    </div>
+</body>
+</html>
